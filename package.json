@@ -1,0 +1,13 @@
+{
+  "name": "atv-docker",
+  "version": "1.0.0",
+  "description": "atv docker N1 - node/express +banco mysql",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "mysql2": "^3.24.2"
+  }
+}
