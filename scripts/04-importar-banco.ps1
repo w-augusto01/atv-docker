@@ -1,1 +1,1 @@
-Get-Content .\database\banco.sql -Raw | docker exec -i mysql-db mysql -uroot -proot123 loja
+Get-Content .\database\banco.sql -Raw | docker exec -i mysql-db mysql -uroot -pdevops loja

@@ -7,7 +7,7 @@ const port = 3000;
 
 const pool = mysql.createPool({
     host: process.env.DB_HOST || "mysql-db",
-    user: process.env.DB_USER || "root",
+    user: process.env.DB_USER || "devops",
     password: process.env.DB_PASSWORD,
     database: process.env.DB_DATABASE || "loja",
     port: process.env.DB_PORT || 3306,

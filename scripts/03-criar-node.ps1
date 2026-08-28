@@ -10,7 +10,7 @@ docker run -d `
     --cpus=0.2 `
     -e DB_HOST=mysql-db `
     -e DB_USER=root `
-    -e DB_PASSWORD=root123 `
+    -e DB_PASSWORD=devops `
     -e DB_DATABASE=loja `
     -e DB_PORT=3306 `
     -v node_data:/app/data `

@@ -16,7 +16,7 @@ if ($LASTEXITCODE -ne 0) {
     docker run -d `
         --name mysql-db `
         --network rede_atividade `
-        -e MYSQL_ROOT_PASSWORD=root123 `
+        -e MYSQL_ROOT_PASSWORD=devops `
         -e MYSQL_DATABASE=loja `
         --memory=128m `
         --cpus=0.2 `

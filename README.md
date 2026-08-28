@@ -28,7 +28,7 @@ loja
 
 senha do root:
 
-root123
+devops
 
 ### node
 
